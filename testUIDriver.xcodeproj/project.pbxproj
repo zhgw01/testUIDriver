@@ -13,6 +13,32 @@
 		285433241D1BDCC300C90E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285433231D1BDCC300C90E28 /* Assets.xcassets */; };
 		285433271D1BDCC300C90E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285433251D1BDCC300C90E28 /* LaunchScreen.storyboard */; };
 		285433321D1BDCC400C90E28 /* testUIDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285433311D1BDCC300C90E28 /* testUIDriverUITests.swift */; };
+		2854341E1D1BED8900C90E28 /* XCElementSnapshot+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433B51D1BED8900C90E28 /* XCElementSnapshot+Helpers.m */; };
+		2854341F1D1BED8900C90E28 /* XCUIApplication+FBHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433B71D1BED8900C90E28 /* XCUIApplication+FBHelpers.m */; };
+		285434201D1BED8900C90E28 /* XCUIDevice+FBHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433B91D1BED8900C90E28 /* XCUIDevice+FBHelpers.m */; };
+		285434211D1BED8900C90E28 /* XCUIElement+FBAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433BB1D1BED8900C90E28 /* XCUIElement+FBAccessibility.m */; };
+		285434221D1BED8900C90E28 /* XCUIElement+FBIsVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433BD1D1BED8900C90E28 /* XCUIElement+FBIsVisible.m */; };
+		285434231D1BED8900C90E28 /* XCUIElement+FBScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433BF1D1BED8900C90E28 /* XCUIElement+FBScrolling.m */; };
+		285434241D1BED8900C90E28 /* XCUIElement+FBTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433C11D1BED8900C90E28 /* XCUIElement+FBTap.m */; };
+		285434251D1BED8900C90E28 /* XCUIElement+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433C31D1BED8900C90E28 /* XCUIElement+Utilities.m */; };
+		285434261D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433C51D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.m */; };
+		285434321D1BED8900C90E28 /* FBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433DE1D1BED8900C90E28 /* FBAlert.m */; };
+		285434331D1BED8900C90E28 /* FBApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433E01D1BED8900C90E28 /* FBApplication.m */; };
+		285434341D1BED8900C90E28 /* FBApplicationProcessProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433E21D1BED8900C90E28 /* FBApplicationProcessProxy.m */; };
+		285434351D1BED8900C90E28 /* FBSpringboardApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 285433E41D1BED8900C90E28 /* FBSpringboardApplication.m */; };
+		2854346A1D1BEE7F00C90E28 /* FBConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434521D1BEE7F00C90E28 /* FBConfiguration.m */; };
+		2854346B1D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434541D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.m */; };
+		2854346C1D1BEE7F00C90E28 /* FBElementTypeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434561D1BEE7F00C90E28 /* FBElementTypeTransformer.m */; };
+		2854346D1D1BEE7F00C90E28 /* FBErrorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434581D1BEE7F00C90E28 /* FBErrorBuilder.m */; };
+		2854346E1D1BEE7F00C90E28 /* FBFailureProofTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854345A1D1BEE7F00C90E28 /* FBFailureProofTestCase.m */; };
+		2854346F1D1BEE7F00C90E28 /* FBKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854345C1D1BEE7F00C90E28 /* FBKeyboard.m */; };
+		285434701D1BEE7F00C90E28 /* FBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854345E1D1BEE7F00C90E28 /* FBLogger.m */; };
+		285434711D1BEE7F00C90E28 /* FBRunLoopSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434611D1BEE7F00C90E28 /* FBRunLoopSpinner.m */; };
+		285434721D1BEE7F00C90E28 /* FBRuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434631D1BEE7F00C90E28 /* FBRuntimeUtils.m */; };
+		285434731D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434651D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.m */; };
+		285434741D1BEE7F00C90E28 /* FBXPathCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434671D1BEE7F00C90E28 /* FBXPathCreator.m */; };
+		285434751D1BEE7F00C90E28 /* XCTestPrivateSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434691D1BEE7F00C90E28 /* XCTestPrivateSymbols.m */; };
+		285434781D1BEF6B00C90E28 /* FBElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 285434771D1BEF6B00C90E28 /* FBElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,153 @@
 		2854332D1D1BDCC300C90E28 /* testUIDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		285433311D1BDCC300C90E28 /* testUIDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIDriverUITests.swift; sourceTree = "<group>"; };
 		285433331D1BDCC400C90E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285433551D1BED7100C90E28 /* _XCDarwinNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		285433561D1BED7100C90E28 /* _XCInternalTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCInternalTestRun.h; sourceTree = "<group>"; };
+		285433571D1BED7100C90E28 /* _XCKVOExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCKVOExpectation.h; sourceTree = "<group>"; };
+		285433581D1BED7100C90E28 /* _XCNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCNotificationExpectation.h; sourceTree = "<group>"; };
+		285433591D1BED7100C90E28 /* _XCPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCPredicateExpectation.h; sourceTree = "<group>"; };
+		2854335A1D1BED7100C90E28 /* _XCTestCaseImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseImplementation.h; sourceTree = "<group>"; };
+		2854335B1D1BED7100C90E28 /* _XCTestCaseInterruptionException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseInterruptionException.h; sourceTree = "<group>"; };
+		2854335C1D1BED7100C90E28 /* _XCTestDriverTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestDriverTestObserver.h; sourceTree = "<group>"; };
+		2854335D1D1BED7100C90E28 /* _XCTestExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestExpectationImplementation.h; sourceTree = "<group>"; };
+		2854335E1D1BED7100C90E28 /* _XCTestImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestImplementation.h; sourceTree = "<group>"; };
+		2854335F1D1BED7100C90E28 /* _XCTestObservationCenterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestObservationCenterImplementation.h; sourceTree = "<group>"; };
+		285433601D1BED7100C90E28 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		285433611D1BED7100C90E28 /* UIGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433621D1BED7100C90E28 /* UILongPressGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILongPressGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433631D1BED7100C90E28 /* UIPanGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433641D1BED7100C90E28 /* UIPinchGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPinchGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433651D1BED7100C90E28 /* UISwipeGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwipeGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433661D1BED7100C90E28 /* UITapGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		285433671D1BED7100C90E28 /* XCAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAccessibilityElement.h; sourceTree = "<group>"; };
+		285433681D1BED7100C90E28 /* XCActivityRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCActivityRecord.h; sourceTree = "<group>"; };
+		285433691D1BED7100C90E28 /* XCApplicationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor.h; sourceTree = "<group>"; };
+		2854336A1D1BED7100C90E28 /* XCApplicationMonitor_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor_iOS.h; sourceTree = "<group>"; };
+		2854336B1D1BED7100C90E28 /* XCApplicationMonitor_OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor_OSX.h; sourceTree = "<group>"; };
+		2854336C1D1BED7100C90E28 /* XCApplicationQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationQuery.h; sourceTree = "<group>"; };
+		2854336D1D1BED7100C90E28 /* XCAXClient_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAXClient_iOS.h; sourceTree = "<group>"; };
+		2854336E1D1BED7100C90E28 /* XCAXManager_OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAXManager_OSX.h; sourceTree = "<group>"; };
+		2854336F1D1BED7100C90E28 /* XCDebugLogDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDebugLogDelegate-Protocol.h"; sourceTree = "<group>"; };
+		285433701D1BED7100C90E28 /* XCDeviceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDeviceEvent.h; sourceTree = "<group>"; };
+		285433711D1BED7100C90E28 /* XCElementSnapshot-Hitpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot-Hitpoint.h"; sourceTree = "<group>"; };
+		285433721D1BED7100C90E28 /* XCElementSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCElementSnapshot.h; sourceTree = "<group>"; };
+		285433731D1BED7100C90E28 /* XCEventGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEventGenerator.h; sourceTree = "<group>"; };
+		285433741D1BED7100C90E28 /* XCKeyboardInputSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardInputSolver.h; sourceTree = "<group>"; };
+		285433751D1BED7100C90E28 /* XCKeyboardKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardKeyMap.h; sourceTree = "<group>"; };
+		285433761D1BED7100C90E28 /* XCKeyboardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardLayout.h; sourceTree = "<group>"; };
+		285433771D1BED7100C90E28 /* XCKeyMappingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyMappingPath.h; sourceTree = "<group>"; };
+		285433781D1BED7100C90E28 /* XCPointerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEvent.h; sourceTree = "<group>"; };
+		285433791D1BED7100C90E28 /* XCPointerEventPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEventPath.h; sourceTree = "<group>"; };
+		2854337A1D1BED7100C90E28 /* XCSourceCodeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeRecording.h; sourceTree = "<group>"; };
+		2854337B1D1BED7100C90E28 /* XCSourceCodeTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNode.h; sourceTree = "<group>"; };
+		2854337C1D1BED7100C90E28 /* XCSourceCodeTreeNodeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNodeEnumerator.h; sourceTree = "<group>"; };
+		2854337D1D1BED7100C90E28 /* XCSymbolicationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicationRecord.h; sourceTree = "<group>"; };
+		2854337E1D1BED7100C90E28 /* XCSymbolicatorHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicatorHolder.h; sourceTree = "<group>"; };
+		2854337F1D1BED7100C90E28 /* XCSynthesizedEventRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSynthesizedEventRecord.h; sourceTree = "<group>"; };
+		285433801D1BED7100C90E28 /* XCTest-ReportingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest-ReportingAdditions.h"; sourceTree = "<group>"; };
+		285433811D1BED7100C90E28 /* XCTest-XCTestProbeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTest-XCTestProbeExtensions.h"; sourceTree = "<group>"; };
+		285433821D1BED7100C90E28 /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		285433831D1BED7100C90E28 /* XCTestCase-AsynchronousTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase-AsynchronousTesting.h"; sourceTree = "<group>"; };
+		285433841D1BED7100C90E28 /* XCTestCase-AsynchronousTesting_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase-AsynchronousTesting_Internal.h"; sourceTree = "<group>"; };
+		285433851D1BED7100C90E28 /* XCTestCase-AsynchronousTestingPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase-AsynchronousTestingPrivate.h"; sourceTree = "<group>"; };
+		285433861D1BED7100C90E28 /* XCTestCase-RuntimeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase-RuntimeUtilities.h"; sourceTree = "<group>"; };
+		285433871D1BED7100C90E28 /* XCTestCase-XCTestSuiteExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase-XCTestSuiteExtensions.h"; sourceTree = "<group>"; };
+		285433881D1BED7100C90E28 /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		285433891D1BED7100C90E28 /* XCTestCaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseRun.h; sourceTree = "<group>"; };
+		2854338A1D1BED7100C90E28 /* XCTestCaseSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseSuite.h; sourceTree = "<group>"; };
+		2854338B1D1BED7100C90E28 /* XCTestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestConfiguration.h; sourceTree = "<group>"; };
+		2854338C1D1BED7100C90E28 /* XCTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContext.h; sourceTree = "<group>"; };
+		2854338D1D1BED7100C90E28 /* XCTestContextScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContextScope.h; sourceTree = "<group>"; };
+		2854338E1D1BED7100C90E28 /* XCTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestDriver.h; sourceTree = "<group>"; };
+		2854338F1D1BED7100C90E28 /* XCTestDriverInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestDriverInterface-Protocol.h"; sourceTree = "<group>"; };
+		285433901D1BED7100C90E28 /* XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectation.h; sourceTree = "<group>"; };
+		285433911D1BED7100C90E28 /* XCTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestLog.h; sourceTree = "<group>"; };
+		285433921D1BED7100C90E28 /* XCTestManager_IDEInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_IDEInterface-Protocol.h"; sourceTree = "<group>"; };
+		285433931D1BED7100C90E28 /* XCTestManager_ManagerInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_ManagerInterface-Protocol.h"; sourceTree = "<group>"; };
+		285433941D1BED7100C90E28 /* XCTestManager_TestsInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_TestsInterface-Protocol.h"; sourceTree = "<group>"; };
+		285433951D1BED7100C90E28 /* XCTestObservation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestObservation-Protocol.h"; sourceTree = "<group>"; };
+		285433961D1BED7100C90E28 /* XCTestObservationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservationCenter.h; sourceTree = "<group>"; };
+		285433971D1BED7100C90E28 /* XCTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObserver.h; sourceTree = "<group>"; };
+		285433981D1BED7100C90E28 /* XCTestProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestProbe.h; sourceTree = "<group>"; };
+		285433991D1BED7100C90E28 /* XCTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestRun.h; sourceTree = "<group>"; };
+		2854339A1D1BED7100C90E28 /* XCTestSuite-XCTestProbeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestSuite-XCTestProbeExtensions.h"; sourceTree = "<group>"; };
+		2854339B1D1BED7100C90E28 /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		2854339C1D1BED7100C90E28 /* XCTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuiteRun.h; sourceTree = "<group>"; };
+		2854339D1D1BED7100C90E28 /* XCTouchEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTouchEvent.h; sourceTree = "<group>"; };
+		2854339E1D1BED7100C90E28 /* XCTouchGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTouchGesture.h; sourceTree = "<group>"; };
+		2854339F1D1BED7100C90E28 /* XCTouchPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTouchPath.h; sourceTree = "<group>"; };
+		285433A01D1BED7100C90E28 /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplication.h; sourceTree = "<group>"; };
+		285433A11D1BED7100C90E28 /* XCUIApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationImpl.h; sourceTree = "<group>"; };
+		285433A21D1BED7100C90E28 /* XCUIApplicationProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationProcess.h; sourceTree = "<group>"; };
+		285433A31D1BED7100C90E28 /* XCUICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUICoordinate.h; sourceTree = "<group>"; };
+		285433A41D1BED7100C90E28 /* XCUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIDevice.h; sourceTree = "<group>"; };
+		285433A51D1BED7100C90E28 /* XCUIElement-PrivateEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement-PrivateEvents.h"; sourceTree = "<group>"; };
+		285433A61D1BED7100C90E28 /* XCUIElement-XCUIElementEventSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement-XCUIElementEventSynthesis.h"; sourceTree = "<group>"; };
+		285433A71D1BED7100C90E28 /* XCUIElement-XCUIElementTypePickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement-XCUIElementTypePickerWheel.h"; sourceTree = "<group>"; };
+		285433A81D1BED7100C90E28 /* XCUIElement-XCUIElementTypeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement-XCUIElementTypeSlider.h"; sourceTree = "<group>"; };
+		285433A91D1BED7100C90E28 /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElement.h; sourceTree = "<group>"; };
+		285433AA1D1BED7100C90E28 /* XCUIElementAsynchronousHandlerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementAsynchronousHandlerWrapper.h; sourceTree = "<group>"; };
+		285433AB1D1BED7100C90E28 /* XCUIElementHitPointCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementHitPointCoordinate.h; sourceTree = "<group>"; };
+		285433AC1D1BED7100C90E28 /* XCUIElementQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementQuery.h; sourceTree = "<group>"; };
+		285433AD1D1BED7100C90E28 /* XCUIRecorderNodeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinder.h; sourceTree = "<group>"; };
+		285433AE1D1BED7100C90E28 /* XCUIRecorderNodeFinderMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinderMatch.h; sourceTree = "<group>"; };
+		285433AF1D1BED7100C90E28 /* XCUIRecorderTimingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderTimingMessage.h; sourceTree = "<group>"; };
+		285433B01D1BED7100C90E28 /* XCUIRecorderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderUtilities.h; sourceTree = "<group>"; };
+		285433B11D1BED7100C90E28 /* XCUIRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRemote.h; sourceTree = "<group>"; };
+		285433B41D1BED8900C90E28 /* XCElementSnapshot+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot+Helpers.h"; sourceTree = "<group>"; };
+		285433B51D1BED8900C90E28 /* XCElementSnapshot+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCElementSnapshot+Helpers.m"; sourceTree = "<group>"; };
+		285433B61D1BED8900C90E28 /* XCUIApplication+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIApplication+FBHelpers.h"; sourceTree = "<group>"; };
+		285433B71D1BED8900C90E28 /* XCUIApplication+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIApplication+FBHelpers.m"; sourceTree = "<group>"; };
+		285433B81D1BED8900C90E28 /* XCUIDevice+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBHelpers.h"; sourceTree = "<group>"; };
+		285433B91D1BED8900C90E28 /* XCUIDevice+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBHelpers.m"; sourceTree = "<group>"; };
+		285433BA1D1BED8900C90E28 /* XCUIElement+FBAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBAccessibility.h"; sourceTree = "<group>"; };
+		285433BB1D1BED8900C90E28 /* XCUIElement+FBAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBAccessibility.m"; sourceTree = "<group>"; };
+		285433BC1D1BED8900C90E28 /* XCUIElement+FBIsVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBIsVisible.h"; sourceTree = "<group>"; };
+		285433BD1D1BED8900C90E28 /* XCUIElement+FBIsVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBIsVisible.m"; sourceTree = "<group>"; };
+		285433BE1D1BED8900C90E28 /* XCUIElement+FBScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBScrolling.h"; sourceTree = "<group>"; };
+		285433BF1D1BED8900C90E28 /* XCUIElement+FBScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBScrolling.m"; sourceTree = "<group>"; };
+		285433C01D1BED8900C90E28 /* XCUIElement+FBTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBTap.h"; sourceTree = "<group>"; };
+		285433C11D1BED8900C90E28 /* XCUIElement+FBTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBTap.m"; sourceTree = "<group>"; };
+		285433C21D1BED8900C90E28 /* XCUIElement+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+Utilities.h"; sourceTree = "<group>"; };
+		285433C31D1BED8900C90E28 /* XCUIElement+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+Utilities.m"; sourceTree = "<group>"; };
+		285433C41D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+WebDriverAttributes.h"; sourceTree = "<group>"; };
+		285433C51D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+WebDriverAttributes.m"; sourceTree = "<group>"; };
+		285433DD1D1BED8900C90E28 /* FBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAlert.h; sourceTree = "<group>"; };
+		285433DE1D1BED8900C90E28 /* FBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAlert.m; sourceTree = "<group>"; };
+		285433DF1D1BED8900C90E28 /* FBApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplication.h; sourceTree = "<group>"; };
+		285433E01D1BED8900C90E28 /* FBApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplication.m; sourceTree = "<group>"; };
+		285433E11D1BED8900C90E28 /* FBApplicationProcessProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplicationProcessProxy.h; sourceTree = "<group>"; };
+		285433E21D1BED8900C90E28 /* FBApplicationProcessProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplicationProcessProxy.m; sourceTree = "<group>"; };
+		285433E31D1BED8900C90E28 /* FBSpringboardApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSpringboardApplication.h; sourceTree = "<group>"; };
+		285433E41D1BED8900C90E28 /* FBSpringboardApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSpringboardApplication.m; sourceTree = "<group>"; };
+		285434511D1BEE7F00C90E28 /* FBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConfiguration.h; sourceTree = "<group>"; };
+		285434521D1BEE7F00C90E28 /* FBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConfiguration.m; sourceTree = "<group>"; };
+		285434531D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebugLogDelegateDecorator.h; sourceTree = "<group>"; };
+		285434541D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebugLogDelegateDecorator.m; sourceTree = "<group>"; };
+		285434551D1BEE7F00C90E28 /* FBElementTypeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementTypeTransformer.h; sourceTree = "<group>"; };
+		285434561D1BEE7F00C90E28 /* FBElementTypeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementTypeTransformer.m; sourceTree = "<group>"; };
+		285434571D1BEE7F00C90E28 /* FBErrorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorBuilder.h; sourceTree = "<group>"; };
+		285434581D1BEE7F00C90E28 /* FBErrorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBErrorBuilder.m; sourceTree = "<group>"; };
+		285434591D1BEE7F00C90E28 /* FBFailureProofTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFailureProofTestCase.h; sourceTree = "<group>"; };
+		2854345A1D1BEE7F00C90E28 /* FBFailureProofTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFailureProofTestCase.m; sourceTree = "<group>"; };
+		2854345B1D1BEE7F00C90E28 /* FBKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKeyboard.h; sourceTree = "<group>"; };
+		2854345C1D1BEE7F00C90E28 /* FBKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKeyboard.m; sourceTree = "<group>"; };
+		2854345D1D1BEE7F00C90E28 /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
+		2854345E1D1BEE7F00C90E28 /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
+		2854345F1D1BEE7F00C90E28 /* FBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMacros.h; sourceTree = "<group>"; };
+		285434601D1BEE7F00C90E28 /* FBRunLoopSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRunLoopSpinner.h; sourceTree = "<group>"; };
+		285434611D1BEE7F00C90E28 /* FBRunLoopSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRunLoopSpinner.m; sourceTree = "<group>"; };
+		285434621D1BEE7F00C90E28 /* FBRuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRuntimeUtils.h; sourceTree = "<group>"; };
+		285434631D1BEE7F00C90E28 /* FBRuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRuntimeUtils.m; sourceTree = "<group>"; };
+		285434641D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCTestCaseImplementationFailureHoldingProxy.h; sourceTree = "<group>"; };
+		285434651D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCTestCaseImplementationFailureHoldingProxy.m; sourceTree = "<group>"; };
+		285434661D1BEE7F00C90E28 /* FBXPathCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPathCreator.h; sourceTree = "<group>"; };
+		285434671D1BEE7F00C90E28 /* FBXPathCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXPathCreator.m; sourceTree = "<group>"; };
+		285434681D1BEE7F00C90E28 /* XCTestPrivateSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestPrivateSymbols.h; sourceTree = "<group>"; };
+		285434691D1BEE7F00C90E28 /* XCTestPrivateSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestPrivateSymbols.m; sourceTree = "<group>"; };
+		285434761D1BEF6B00C90E28 /* FBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElement.h; sourceTree = "<group>"; };
+		285434771D1BEF6B00C90E28 /* FBElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElement.m; sourceTree = "<group>"; };
+		285434841D1BF2E000C90E28 /* testUIDriverUITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "testUIDriverUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +263,197 @@
 		285433301D1BDCC300C90E28 /* testUIDriverUITests */ = {
 			isa = PBXGroup;
 			children = (
+				285433531D1BED7100C90E28 /* PrivateHeaders */,
+				285433B21D1BED8900C90E28 /* WebDriverAgentLib */,
 				285433311D1BDCC300C90E28 /* testUIDriverUITests.swift */,
+				285434841D1BF2E000C90E28 /* testUIDriverUITests-Bridging-Header.h */,
 				285433331D1BDCC400C90E28 /* Info.plist */,
 			);
 			path = testUIDriverUITests;
+			sourceTree = "<group>";
+		};
+		285433531D1BED7100C90E28 /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				285433541D1BED7100C90E28 /* XCTest */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		285433541D1BED7100C90E28 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				285433551D1BED7100C90E28 /* _XCDarwinNotificationExpectation.h */,
+				285433561D1BED7100C90E28 /* _XCInternalTestRun.h */,
+				285433571D1BED7100C90E28 /* _XCKVOExpectation.h */,
+				285433581D1BED7100C90E28 /* _XCNotificationExpectation.h */,
+				285433591D1BED7100C90E28 /* _XCPredicateExpectation.h */,
+				2854335A1D1BED7100C90E28 /* _XCTestCaseImplementation.h */,
+				2854335B1D1BED7100C90E28 /* _XCTestCaseInterruptionException.h */,
+				2854335C1D1BED7100C90E28 /* _XCTestDriverTestObserver.h */,
+				2854335D1D1BED7100C90E28 /* _XCTestExpectationImplementation.h */,
+				2854335E1D1BED7100C90E28 /* _XCTestImplementation.h */,
+				2854335F1D1BED7100C90E28 /* _XCTestObservationCenterImplementation.h */,
+				285433601D1BED7100C90E28 /* CDStructures.h */,
+				285433611D1BED7100C90E28 /* UIGestureRecognizer-RecordingAdditions.h */,
+				285433621D1BED7100C90E28 /* UILongPressGestureRecognizer-RecordingAdditions.h */,
+				285433631D1BED7100C90E28 /* UIPanGestureRecognizer-RecordingAdditions.h */,
+				285433641D1BED7100C90E28 /* UIPinchGestureRecognizer-RecordingAdditions.h */,
+				285433651D1BED7100C90E28 /* UISwipeGestureRecognizer-RecordingAdditions.h */,
+				285433661D1BED7100C90E28 /* UITapGestureRecognizer-RecordingAdditions.h */,
+				285433671D1BED7100C90E28 /* XCAccessibilityElement.h */,
+				285433681D1BED7100C90E28 /* XCActivityRecord.h */,
+				285433691D1BED7100C90E28 /* XCApplicationMonitor.h */,
+				2854336A1D1BED7100C90E28 /* XCApplicationMonitor_iOS.h */,
+				2854336B1D1BED7100C90E28 /* XCApplicationMonitor_OSX.h */,
+				2854336C1D1BED7100C90E28 /* XCApplicationQuery.h */,
+				2854336D1D1BED7100C90E28 /* XCAXClient_iOS.h */,
+				2854336E1D1BED7100C90E28 /* XCAXManager_OSX.h */,
+				2854336F1D1BED7100C90E28 /* XCDebugLogDelegate-Protocol.h */,
+				285433701D1BED7100C90E28 /* XCDeviceEvent.h */,
+				285433711D1BED7100C90E28 /* XCElementSnapshot-Hitpoint.h */,
+				285433721D1BED7100C90E28 /* XCElementSnapshot.h */,
+				285433731D1BED7100C90E28 /* XCEventGenerator.h */,
+				285433741D1BED7100C90E28 /* XCKeyboardInputSolver.h */,
+				285433751D1BED7100C90E28 /* XCKeyboardKeyMap.h */,
+				285433761D1BED7100C90E28 /* XCKeyboardLayout.h */,
+				285433771D1BED7100C90E28 /* XCKeyMappingPath.h */,
+				285433781D1BED7100C90E28 /* XCPointerEvent.h */,
+				285433791D1BED7100C90E28 /* XCPointerEventPath.h */,
+				2854337A1D1BED7100C90E28 /* XCSourceCodeRecording.h */,
+				2854337B1D1BED7100C90E28 /* XCSourceCodeTreeNode.h */,
+				2854337C1D1BED7100C90E28 /* XCSourceCodeTreeNodeEnumerator.h */,
+				2854337D1D1BED7100C90E28 /* XCSymbolicationRecord.h */,
+				2854337E1D1BED7100C90E28 /* XCSymbolicatorHolder.h */,
+				2854337F1D1BED7100C90E28 /* XCSynthesizedEventRecord.h */,
+				285433801D1BED7100C90E28 /* XCTest-ReportingAdditions.h */,
+				285433811D1BED7100C90E28 /* XCTest-XCTestProbeExtensions.h */,
+				285433821D1BED7100C90E28 /* XCTest.h */,
+				285433831D1BED7100C90E28 /* XCTestCase-AsynchronousTesting.h */,
+				285433841D1BED7100C90E28 /* XCTestCase-AsynchronousTesting_Internal.h */,
+				285433851D1BED7100C90E28 /* XCTestCase-AsynchronousTestingPrivate.h */,
+				285433861D1BED7100C90E28 /* XCTestCase-RuntimeUtilities.h */,
+				285433871D1BED7100C90E28 /* XCTestCase-XCTestSuiteExtensions.h */,
+				285433881D1BED7100C90E28 /* XCTestCase.h */,
+				285433891D1BED7100C90E28 /* XCTestCaseRun.h */,
+				2854338A1D1BED7100C90E28 /* XCTestCaseSuite.h */,
+				2854338B1D1BED7100C90E28 /* XCTestConfiguration.h */,
+				2854338C1D1BED7100C90E28 /* XCTestContext.h */,
+				2854338D1D1BED7100C90E28 /* XCTestContextScope.h */,
+				2854338E1D1BED7100C90E28 /* XCTestDriver.h */,
+				2854338F1D1BED7100C90E28 /* XCTestDriverInterface-Protocol.h */,
+				285433901D1BED7100C90E28 /* XCTestExpectation.h */,
+				285433911D1BED7100C90E28 /* XCTestLog.h */,
+				285433921D1BED7100C90E28 /* XCTestManager_IDEInterface-Protocol.h */,
+				285433931D1BED7100C90E28 /* XCTestManager_ManagerInterface-Protocol.h */,
+				285433941D1BED7100C90E28 /* XCTestManager_TestsInterface-Protocol.h */,
+				285433951D1BED7100C90E28 /* XCTestObservation-Protocol.h */,
+				285433961D1BED7100C90E28 /* XCTestObservationCenter.h */,
+				285433971D1BED7100C90E28 /* XCTestObserver.h */,
+				285433981D1BED7100C90E28 /* XCTestProbe.h */,
+				285433991D1BED7100C90E28 /* XCTestRun.h */,
+				2854339A1D1BED7100C90E28 /* XCTestSuite-XCTestProbeExtensions.h */,
+				2854339B1D1BED7100C90E28 /* XCTestSuite.h */,
+				2854339C1D1BED7100C90E28 /* XCTestSuiteRun.h */,
+				2854339D1D1BED7100C90E28 /* XCTouchEvent.h */,
+				2854339E1D1BED7100C90E28 /* XCTouchGesture.h */,
+				2854339F1D1BED7100C90E28 /* XCTouchPath.h */,
+				285433A01D1BED7100C90E28 /* XCUIApplication.h */,
+				285433A11D1BED7100C90E28 /* XCUIApplicationImpl.h */,
+				285433A21D1BED7100C90E28 /* XCUIApplicationProcess.h */,
+				285433A31D1BED7100C90E28 /* XCUICoordinate.h */,
+				285433A41D1BED7100C90E28 /* XCUIDevice.h */,
+				285433A51D1BED7100C90E28 /* XCUIElement-PrivateEvents.h */,
+				285433A61D1BED7100C90E28 /* XCUIElement-XCUIElementEventSynthesis.h */,
+				285433A71D1BED7100C90E28 /* XCUIElement-XCUIElementTypePickerWheel.h */,
+				285433A81D1BED7100C90E28 /* XCUIElement-XCUIElementTypeSlider.h */,
+				285433A91D1BED7100C90E28 /* XCUIElement.h */,
+				285433AA1D1BED7100C90E28 /* XCUIElementAsynchronousHandlerWrapper.h */,
+				285433AB1D1BED7100C90E28 /* XCUIElementHitPointCoordinate.h */,
+				285433AC1D1BED7100C90E28 /* XCUIElementQuery.h */,
+				285433AD1D1BED7100C90E28 /* XCUIRecorderNodeFinder.h */,
+				285433AE1D1BED7100C90E28 /* XCUIRecorderNodeFinderMatch.h */,
+				285433AF1D1BED7100C90E28 /* XCUIRecorderTimingMessage.h */,
+				285433B01D1BED7100C90E28 /* XCUIRecorderUtilities.h */,
+				285433B11D1BED7100C90E28 /* XCUIRemote.h */,
+			);
+			path = XCTest;
+			sourceTree = "<group>";
+		};
+		285433B21D1BED8900C90E28 /* WebDriverAgentLib */ = {
+			isa = PBXGroup;
+			children = (
+				285433B31D1BED8900C90E28 /* Categories */,
+				285434501D1BEE7F00C90E28 /* Utilities */,
+				285433DD1D1BED8900C90E28 /* FBAlert.h */,
+				285434761D1BEF6B00C90E28 /* FBElement.h */,
+				285434771D1BEF6B00C90E28 /* FBElement.m */,
+				285433DE1D1BED8900C90E28 /* FBAlert.m */,
+				285433DF1D1BED8900C90E28 /* FBApplication.h */,
+				285433E01D1BED8900C90E28 /* FBApplication.m */,
+				285433E11D1BED8900C90E28 /* FBApplicationProcessProxy.h */,
+				285433E21D1BED8900C90E28 /* FBApplicationProcessProxy.m */,
+				285433E31D1BED8900C90E28 /* FBSpringboardApplication.h */,
+				285433E41D1BED8900C90E28 /* FBSpringboardApplication.m */,
+			);
+			path = WebDriverAgentLib;
+			sourceTree = "<group>";
+		};
+		285433B31D1BED8900C90E28 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				285433B41D1BED8900C90E28 /* XCElementSnapshot+Helpers.h */,
+				285433B51D1BED8900C90E28 /* XCElementSnapshot+Helpers.m */,
+				285433B61D1BED8900C90E28 /* XCUIApplication+FBHelpers.h */,
+				285433B71D1BED8900C90E28 /* XCUIApplication+FBHelpers.m */,
+				285433B81D1BED8900C90E28 /* XCUIDevice+FBHelpers.h */,
+				285433B91D1BED8900C90E28 /* XCUIDevice+FBHelpers.m */,
+				285433BA1D1BED8900C90E28 /* XCUIElement+FBAccessibility.h */,
+				285433BB1D1BED8900C90E28 /* XCUIElement+FBAccessibility.m */,
+				285433BC1D1BED8900C90E28 /* XCUIElement+FBIsVisible.h */,
+				285433BD1D1BED8900C90E28 /* XCUIElement+FBIsVisible.m */,
+				285433BE1D1BED8900C90E28 /* XCUIElement+FBScrolling.h */,
+				285433BF1D1BED8900C90E28 /* XCUIElement+FBScrolling.m */,
+				285433C01D1BED8900C90E28 /* XCUIElement+FBTap.h */,
+				285433C11D1BED8900C90E28 /* XCUIElement+FBTap.m */,
+				285433C21D1BED8900C90E28 /* XCUIElement+Utilities.h */,
+				285433C31D1BED8900C90E28 /* XCUIElement+Utilities.m */,
+				285433C41D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.h */,
+				285433C51D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		285434501D1BEE7F00C90E28 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				285434511D1BEE7F00C90E28 /* FBConfiguration.h */,
+				285434521D1BEE7F00C90E28 /* FBConfiguration.m */,
+				285434531D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.h */,
+				285434541D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.m */,
+				285434551D1BEE7F00C90E28 /* FBElementTypeTransformer.h */,
+				285434561D1BEE7F00C90E28 /* FBElementTypeTransformer.m */,
+				285434571D1BEE7F00C90E28 /* FBErrorBuilder.h */,
+				285434581D1BEE7F00C90E28 /* FBErrorBuilder.m */,
+				285434591D1BEE7F00C90E28 /* FBFailureProofTestCase.h */,
+				2854345A1D1BEE7F00C90E28 /* FBFailureProofTestCase.m */,
+				2854345B1D1BEE7F00C90E28 /* FBKeyboard.h */,
+				2854345C1D1BEE7F00C90E28 /* FBKeyboard.m */,
+				2854345D1D1BEE7F00C90E28 /* FBLogger.h */,
+				2854345E1D1BEE7F00C90E28 /* FBLogger.m */,
+				2854345F1D1BEE7F00C90E28 /* FBMacros.h */,
+				285434601D1BEE7F00C90E28 /* FBRunLoopSpinner.h */,
+				285434611D1BEE7F00C90E28 /* FBRunLoopSpinner.m */,
+				285434621D1BEE7F00C90E28 /* FBRuntimeUtils.h */,
+				285434631D1BEE7F00C90E28 /* FBRuntimeUtils.m */,
+				285434641D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.h */,
+				285434651D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.m */,
+				285434661D1BEE7F00C90E28 /* FBXPathCreator.h */,
+				285434671D1BEE7F00C90E28 /* FBXPathCreator.m */,
+				285434681D1BEE7F00C90E28 /* XCTestPrivateSymbols.h */,
+				285434691D1BEE7F00C90E28 /* XCTestPrivateSymbols.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +509,6 @@
 					};
 					2854332C1D1BDCC300C90E28 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 285433181D1BDCC300C90E28;
 					};
 				};
 			};
@@ -206,7 +565,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285434341D1BED8900C90E28 /* FBApplicationProcessProxy.m in Sources */,
+				2854346B1D1BEE7F00C90E28 /* FBDebugLogDelegateDecorator.m in Sources */,
+				285434201D1BED8900C90E28 /* XCUIDevice+FBHelpers.m in Sources */,
+				285434701D1BEE7F00C90E28 /* FBLogger.m in Sources */,
+				285434731D1BEE7F00C90E28 /* FBXCTestCaseImplementationFailureHoldingProxy.m in Sources */,
+				285434241D1BED8900C90E28 /* XCUIElement+FBTap.m in Sources */,
+				285434741D1BEE7F00C90E28 /* FBXPathCreator.m in Sources */,
+				2854346C1D1BEE7F00C90E28 /* FBElementTypeTransformer.m in Sources */,
+				285434231D1BED8900C90E28 /* XCUIElement+FBScrolling.m in Sources */,
+				2854341F1D1BED8900C90E28 /* XCUIApplication+FBHelpers.m in Sources */,
+				285434221D1BED8900C90E28 /* XCUIElement+FBIsVisible.m in Sources */,
+				285434211D1BED8900C90E28 /* XCUIElement+FBAccessibility.m in Sources */,
+				285434781D1BEF6B00C90E28 /* FBElement.m in Sources */,
 				285433321D1BDCC400C90E28 /* testUIDriverUITests.swift in Sources */,
+				2854346F1D1BEE7F00C90E28 /* FBKeyboard.m in Sources */,
+				285434321D1BED8900C90E28 /* FBAlert.m in Sources */,
+				285434261D1BED8900C90E28 /* XCUIElement+WebDriverAttributes.m in Sources */,
+				2854346E1D1BEE7F00C90E28 /* FBFailureProofTestCase.m in Sources */,
+				285434721D1BEE7F00C90E28 /* FBRuntimeUtils.m in Sources */,
+				285434751D1BEE7F00C90E28 /* XCTestPrivateSymbols.m in Sources */,
+				285434251D1BED8900C90E28 /* XCUIElement+Utilities.m in Sources */,
+				2854346A1D1BEE7F00C90E28 /* FBConfiguration.m in Sources */,
+				285434351D1BED8900C90E28 /* FBSpringboardApplication.m in Sources */,
+				2854346D1D1BEE7F00C90E28 /* FBErrorBuilder.m in Sources */,
+				285434711D1BEE7F00C90E28 /* FBRunLoopSpinner.m in Sources */,
+				285434331D1BED8900C90E28 /* FBApplication.m in Sources */,
+				2854341E1D1BED8900C90E28 /* XCElementSnapshot+Helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +739,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xunmeng.testUIDriverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testUIDriver;
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "testUIDriverUITests/testUIDriverUITests-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -365,7 +751,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xunmeng.testUIDriverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testUIDriver;
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "testUIDriverUITests/testUIDriverUITests-Bridging-Header.h";
 			};
 			name = Release;
 		};
